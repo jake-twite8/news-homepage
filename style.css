@@ -45,7 +45,7 @@ header{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .navbarContainer{
@@ -118,7 +118,6 @@ header{
 
 .trendingContent{
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     padding-left: 20px;
 }
