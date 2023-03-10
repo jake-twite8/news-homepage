@@ -6,55 +6,90 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Frontend Mentor | News homepage</title>
+  <title>Work Based Project | News homepage</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header>
+    <div class="logoContainer">
+      <img src="./assets/images/logo.svg">
+    </div>
+    
+    <div class="navbarContainer">
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      <nav>
+    </div>
+  </header>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <div class="mainContent">
+    <div class="topContent" style="display: flex; padding-bottom: 50px;">
+      <div class="mainStory" style="margin-right: 40px;">
+        <img src="./assets/images/image-web-3-desktop.jpg" style="width: 100%;">
+        <div class="mainStoryContentContainer" style="display: flex; ">
+          <h1 style="color: hsl(240, 100%, 5%); font-size: 3.5rem; width: 50%; padding-top: 30px;">The Bright<br>Future of<br>Web 3.0?</h1>
+          <div class="mainStoryContent" style="display: flex; flex-direction: column; width: 50%; padding-top: 30px;">
+            <p style="padding-right: 10px;">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <a class="button">READ MORE</a>
+          </div>
+        </div>
+      </div>
 
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="newPostsContainer">
+        <h2 style="color: hsl(35, 77%, 62%); font-size: 2.5rem;">New</h2>
+        <div class="newPost">
+          <h3 class="newPostTitle"><a href="#">Hydrogen VS Electric Cars</a></h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr>
+        <div class="newPost">
+          <h3 class="newPostTitle"><a href="#">The Downsides of AI Artistry</a></h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr>
+        <div class="newPost">
+          <h3 class="newPostTitle"><a href="#">Is VC Funding Drying Up?</a></h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <div class="trendingNews">
+    <div class="trendingItem">
+      <img class="trendingImage" src="./assets/images/image-retro-pcs.jpg">
+      <div class="trendingContent">
+        <p class="trendingNumber">01</p>
+        <h3><a href="#" style="color: hsl(240, 100%, 5%);">Reviving Retro PCs</a></h3>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="trendingItem">
+      <img class="trendingImage" src="./assets/images/image-top-laptops.jpg">
+      <div class="trendingContent">
+        <p class="trendingNumber">02</p>
+        <h3><a href="#" style="color: hsl(240, 100%, 5%);">Top 10 Laptops of 2022</a></h3>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="trendingItem">
+      <img class="trendingImage" src="./assets/images/image-gaming-growth.jpg">
+      <div class="trendingContent">
+        <p class="trendingNumber">03</p>
+        <h3><a href="#" style="color: hsl(240, 100%, 5%);">The Growth of Gaming</a></h3>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </div>
+  
+  
 </body>
 </html>

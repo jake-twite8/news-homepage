@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+a:hover{
+    color: hsl(35, 77%, 62%) !important;
+}
+
+h1{
+    font-weight: 800;
+    line-height: 1;
+}
+
+h2{
+    font-weight: 700;
+    line-height: 1;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    line-height: 2;
+}
+
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(36, 100%, 99%);
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.navbarContainer{
+    margin-left: auto;
+}
+
+#navbar > ul > li > a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+#navbar > ul > li > a:hover{
+    text-decoration: none;
+    color: hsl(35, 77%, 62%);
+}
+
+#navbar > ul > li{
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#navbar > ul{
+    list-style: none;
+    display: flex;
+}
+
+.button{
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100px;
+    margin-top: auto;
+}
+
+.button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.newPostsContainer{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    padding: 20px;
+}
+
+.newPost{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.newPostTitle{
+    color: hsl(36, 100%, 99%);
+    padding-bottom: 10px;
+}
+
+.trendingNews{
+    display: flex;
+}
+
+.trendingItem{
+    display: flex;
+}
+
+.trendingContent{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.trendingNumber{
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.trendingImage{
+    width: 150px;
+}
