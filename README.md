@@ -5,6 +5,7 @@ For this project I have been tasked to create a homepage for a new news website.
 
 ## Planning/Wire Frame
 --- See assets folder for wireframes ---
+![desktop wireframe](/assets/Wireframes/Desktop-wireframe.png)
 
 ## Development / Git - Github
 
