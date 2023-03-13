@@ -8,14 +8,29 @@
   
   <title>Work Based Project | News homepage</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 
 </head>
 <body>
+  <div id="MobileNavMenu">
+    <div style="padding: 10px; margin-left: auto; text-align: right;">
+    <a id="mobileMenuClose" onclick="menuClose()"><img src="./assets/images/icon-menu-close.svg"></a>
+    </div>
+    <nav id="MobileNavbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    <nav>
+  </div>
   <header>
     <div class="logoContainer">
       <img src="./assets/images/logo.svg">
     </div>
-    
+    <a id="mobileMenu" onclick="menuOpen()"><img src="./assets/images/icon-menu.svg"></a>
     <div class="navbarContainer">
       <nav id="navbar">
         <ul>
@@ -26,17 +41,20 @@
           <li><a href="#">Categories</a></li>
         </ul>
       <nav>
+      
     </div>
   </header>
 
+
+
   <div class="mainContent">
-    <div class="topContent" style="display: flex; padding-bottom: 80px;">
-      <div class="mainStory" style="margin-right: 40px;">
-        <img src="./assets/images/image-web-3-desktop.jpg" style="width: 100%;">
-        <div class="mainStoryContentContainer" style="display: flex; ">
-          <h1 style="color: hsl(240, 100%, 5%); font-size: 3.5rem; width: 50%; padding-top: 30px;">The Bright<br>Future of<br>Web 3.0?</h1>
-          <div class="mainStoryContent" style="display: flex; flex-direction: column; width: 50%; padding-top: 30px;">
-            <p style="padding-right: 10px;">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+    <div class="topContent">
+      <div class="mainStory">
+        <img id="mainStoryImage" src="./assets/images/image-web-3-desktop.jpg" style="width: 100%;">
+        <div class="mainStoryContentContainer">
+          <h1 class="mainStoryHeader">The Bright<br>Future of<br>Web 3.0?</h1>
+          <div class="mainStoryContent">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
               But is it really fulfilling its promise?</p>
             <a class="button">READ MORE</a>
           </div>

@@ -98,6 +98,33 @@ header{
     padding: 20px;
 }
 
+.topContent{
+    display: flex; 
+    padding-bottom: 80px;
+}
+
+.mainStoryContentContainer{
+    display: flex;
+}
+
+.mainStory{
+    margin-right: 40px;
+}
+
+.mainStoryContent{
+    display: flex; 
+    flex-direction: column; 
+    width: 50%; 
+    padding-top: 30px;
+}
+
+.mainStoryHeader{
+    color: hsl(240, 100%, 5%); 
+    font-size: 3.5rem; 
+    width: 50%; 
+    padding-top: 30px;
+}
+
 .newPost{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -131,3 +158,107 @@ header{
 .trendingImage{
     width: 150px;
 }
+
+#mobileMenu{
+    display: none;
+}
+
+#MobileNavMenu{
+    display: none;
+    position: absolute;
+    background: hsl(36, 100%, 99%);
+    width: 70%;
+    height: 100%;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+/* Media Query applied when the screen size is smaller than 375px (mobile screens) */
+@media only screen and (max-width: 375px) {
+    body{
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    header{
+        padding-top: 30px;
+    }
+
+    .navbarContainer{
+        display: none;
+    }
+
+    #mobileMenu{
+        display: block;
+        margin-left: auto;
+    }
+
+    .topContent{
+        flex-direction: column;
+    }
+    
+    .mainStoryContentContainer{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .mainStoryContent{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mainStoryHeader{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .mainStory{
+        margin-right: 0;
+    }
+
+    .button{
+        margin-top: 20px;
+    }
+
+    .trendingNews{
+        flex-direction: column;
+    }
+
+    .trendingItem{
+        margin-top: 40px;
+    }
+
+    .topContent{
+        padding-bottom: 20px;
+    }
+
+    #MobileNavbar{
+        margin-top: 50px;
+        height: 100%;
+    }
+
+    #MobileNavbar > ul > li > a{
+        text-decoration: none;
+        color: hsl(236, 13%, 42%);
+    }
+    
+    #MobileNavbar > ul > li > a:hover{
+        text-decoration: none;
+        color: hsl(35, 77%, 62%);
+    }
+    
+    #MobileNavbar > ul > li{
+        text-decoration: none;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    #MobileNavbar > ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+  }
