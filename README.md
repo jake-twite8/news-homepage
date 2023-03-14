@@ -35,13 +35,13 @@ I then set the left margin of the 'navbarContainer' to auto, this pushes the con
 
 The rest of the CSS is styling the navbar components, setting the colour of the links to what the style guide specifies and setting the active states by setting the ':focus' element. I also set the margin of each navbar item to make sure that there is space between the navbar links. 
 
-![Navbar CSS](/assets/Screenshots/Desktop/2-NavCss)
+![Navbar CSS](/assets/Screenshots/Desktop/2-NavCss.png)
 
 #### Result
 
 Here is the result of the above:
 
-![Navbar Result](/assets/Screenshots/Desktop/2-NavResult)
+![Navbar Result](/assets/Screenshots/Desktop/2-NavResult.png)
 
 ### Desktop Main Content
 
@@ -55,7 +55,7 @@ I then had to create the 'New' news section. This consisted of a main 'newPostsC
 
 This is the HTML for this section:
 
-![Main Content HTML](/assets/Screenshots/Desktop/3-MainContentHTML)
+![Main Content HTML](/assets/Screenshots/Desktop/3-MainContentHTML.png)
 
 #### CSS
 
@@ -65,13 +65,13 @@ The next part of the CSS styles the 'New' news list. Firstly, I styled the conta
 
 The CSS:
 
-![Main Content CSS](/assets/Screenshots/Desktop/3-MainContentCss)
+![Main Content CSS](/assets/Screenshots/Desktop/3-MainContentCss.png)
 
 #### Result
 
 The result of this section:
 
-![Main Content Result](/assets/Screenshots/Desktop/3-MainContentResult)
+![Main Content Result](/assets/Screenshots/Desktop/3-MainContentResult.png)
 
 ### Desktop Trending News
 
@@ -81,7 +81,7 @@ The trending news section is a row of news items. The HTML starts with a 'trendi
 
 The HTML:
 
-![Trending News HTML](/assets/Screenshots/Desktop/4-trendingNewsHTML)
+![Trending News HTML](/assets/Screenshots/Desktop/4-trendingNewsHTML.png)
 
 #### CSS
 
@@ -89,12 +89,12 @@ The CSS for the trending news is fairly simple. Firstly, I set the entire 'trend
 
 The CSS:
 
-![Trending News CSS](/assets/Screenshots/Desktop/4-trendingNewsCss)
+![Trending News CSS](/assets/Screenshots/Desktop/4-trendingNewsCss.png)
 
 #### Result
 
 The result:
 
-![Trending News Result](/assets/Screenshots/Desktop/4-trendingNewsResult)
+![Trending News Result](/assets/Screenshots/Desktop/4-trendingNewsResult.png)
 
 ## Deployment - Github
